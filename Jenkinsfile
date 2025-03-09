@@ -4,7 +4,7 @@ pipeline {
 
     parameters{
 	string(name: 'SPEC', defaultValue: "cypress/e2e/**/**", description: "Enter the scripts path")
-	choice(name: 'BROWSER', choices: ['chrome', 'edge', 'firefox'], description: "Choose the browser")
+	choice(name: 'BROWSER', choices: ['chrome', 'edge', 'electron'], description: "Choose the browser")
 
     }
 
